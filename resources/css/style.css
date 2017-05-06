@@ -127,6 +127,12 @@ nav {
 	flex-direction: column;
 }
 
+.story {
+	font-family: Georgia;
+	font-size: 17px;
+	color: black;
+}
+
 .title-caption {
 	font-family: Georgia;
 	font-weight: bold;
