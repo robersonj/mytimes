@@ -1,3 +1,7 @@
+* {
+	margin: 2px 0;
+}
+
 a {
 	color: black;
 	margin-left: 25px;
@@ -8,7 +12,7 @@ nav {
 	flex-grow: 1;
 	display: flex;
 	justify-content: space-between;
-	padding-right: 40px;
+	padding-right: 50px;
 	flex-basis: 50px;
 		
 }
@@ -16,7 +20,7 @@ nav {
 	font-family: Verdana;
 	font-size: 14px;
 	font-weight: bold;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 	display: flex;
 	border-bottom: 1px solid black;
 	align-items: center;
@@ -28,7 +32,7 @@ nav {
 	width: 80%;
 	color: MediumAquamarine;
 	flex-grow: 1;
-	padding-left: 30px;
+	padding-left: 33px;
 	align-items: center;
 }
 
