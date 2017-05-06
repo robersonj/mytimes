@@ -11,11 +11,6 @@ div {
 	border: 1px solid black;
 }
 
-.phish {
-	height: 300px;
-	background-image: url(file:///C:/cygwin64/home/Jessies/coding/codecademy/projects/my_times/resources/images/main.png);
-}
-
 h2, h3 {
 	padding-top: 20px;
 }
@@ -38,8 +33,10 @@ nav {
 }
 
 .camera {
+	display: flex;
 	height: 306px;
 	background-image: url(file:///C:/cygwin64/home/Jessies/coding/codecademy/projects/my_times/resources/images/cameraman.png);
+	flex-direction: column;
 }
 
 .caption {
@@ -47,8 +44,10 @@ nav {
 }
 
 .cats {
+	display: flex;
 	height: 302px;
 	background-image: url(file:///C:/cygwin64/home/Jessies/coding/codecademy/projects/my_times/resources/images/cat.png);
+	flex-direction: column;
 }
 .column {
 	display: flex;
@@ -56,8 +55,10 @@ nav {
 }
 
 .earth {
+	display: flex;
 	height: 300px;
 	background-image: url(file:///C:/cygwin64/home/Jessies/coding/codecademy/projects/my_times/resources/images/fall.png);
+	flex-direction: column;
 }
 .header {
 	font-family: Verdana;
@@ -108,6 +109,13 @@ nav {
 	margin-right: 32px;
 	margin-bottom: -2px;
 	display: flex;
+	flex-direction: column;
+}
+
+.phish {
+	display: flex;
+	height: 300px;
+	background-image: url(file:///C:/cygwin64/home/Jessies/coding/codecademy/projects/my_times/resources/images/main.png);
 	flex-direction: column;
 }
 
