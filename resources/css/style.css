@@ -7,6 +7,18 @@ a {
 	margin-left: 25px;
 }
 
+div {
+	border: 1px solid black;
+}
+
+h2, h3 {
+	padding-top: 20px;
+}
+
+p {
+	padding: 10px 0;
+}
+
 nav {
 
 	flex-grow: 1;
@@ -14,8 +26,21 @@ nav {
 	justify-content: space-between;
 	padding-right: 50px;
 	flex-basis: 50px;
-		
 }
+
+.article {
+	margin: 0;
+}
+
+.caption {
+	margin: -2px 0;
+}
+
+.column {
+	display: flex;
+	justify-content: space-between;
+}
+
 .header {
 	font-family: Verdana;
 	font-size: 14px;
@@ -24,7 +49,15 @@ nav {
 	display: flex;
 	border-bottom: 1px solid black;
 	align-items: center;
-	justify-content: space-between;
+	align-content: flex-start;
+}
+
+.large {
+	width: 630px;
+	margin-right: 32px;
+	margin-bottom: -2px;
+	display: flex;
+	flex-direction: column;
 }
 
 .logo {
@@ -36,8 +69,31 @@ nav {
 	align-items: center;
 }
 
-.title {
+.logo-title {
 	margin-left: 10px;
 }
+
+.main {
+	padding-top: 35px;
+	padding-bottom: 0;
+}
+
+.medium {
+	width: 300px;
+	margin-right: 32px;
+	margin-bottom: -2px;
+	display: flex;
+	flex-direction: column;
+}
+
+.small {
+	width: 240px;
+	margin-right: 32px;
+	margin-bottom: -2px;
+	display: flex;
+	flex-direction: column;
+}
+
+
 
 
