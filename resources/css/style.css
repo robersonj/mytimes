@@ -10,7 +10,7 @@ footer {
 	display: flex;
 	background-color: MediumAquamarine;
 	flex-direction: column;
-	margin: auto;
+	margin: 0 -10px;
 	justify-content: center;
 	text-align: center;
 }
@@ -44,7 +44,7 @@ span.bites {
 	background-color: WhiteSmoke;
 	border-bottom: 1px solid black;
 	padding-left: 10px;
-	padding-top: 12px;f
+	padding-top: 12px;
 }
 
 .article {
@@ -106,12 +106,13 @@ span.bites {
 .header {
 	width: 100%;
 	font-family: Verdana;
-	fo
-	align-content: center;nt-size: 14px;
+	align-content: center;
+    font-size: 14px;
 	font-weight: bold;
 	padding-top: 10px;
 	padding-bottom: 5px;
 	margin-top: -10px;
+	margin-left: -10px;
 	display: flex;
 	border-bottom: 1px solid black;
 	align-items: center;
@@ -123,11 +124,12 @@ span.bites {
 
 .large {
 	width: 630px;
-	margin-right: 32px;
-	margin-bottom: -2px;
-	display: flex;
-	flex-direction: column;
+}
 
+.large, .medium, .small {
+    margin-right: 32px;
+    display: flex;
+    flex-direction: column;
 }
 
 .logo {
@@ -157,10 +159,6 @@ span.bites {
 
 .medium {
 	width: 300px;
-	margin-right: 32px;
-	margin-bottom: -2px;
-	display: flex;
-	flex-direction: column;
 }
 
 .mytimes {
@@ -191,36 +189,38 @@ span.bites {
 
 .small {
 	width: 240px;
-	margin-right: 32px;
-	margin-bottom: -2px;
-	display: flex;
-	flex-direction: column;
 }
 
-.story {
-	display: flex;
+.story, .story1, .story2 {
+    display: flex;
 }
 
 .story1 {
-	display: flex;
-	flex-direction: column;
-	margin-right: 15px;
+    width: 50%;
+    margin-right: 15px;
 }
 
 .story2 {
-	display: flex;
+    width: 50%;
+    margin-left: 15px;
+}
+    
+
+.story1, .story2 {
+    flex: 1;
 	flex-direction: column;
-	margin-left: 15px;
 }
 
 .storyline {
-	font-family: Georgia;
 	font-size: 17px;
 	color: black;
 }
 
+.storyline, .title-caption {
+    font-family: Georgia;
+}
+
 .title-caption {
-	font-family: Georgia;
 	font-weight: bold;
 	font-size: 30px;
 	color: white;
